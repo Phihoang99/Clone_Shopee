@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./asset/css/normalize.css" />
     <link rel="stylesheet" href="./asset/css/main.css" />
     <link rel="stylesheet" href="./asset/css/base.css" />
+    <link rel="stylesheet" href="./asset/font/fontawesome-free-6.3.0/css/all.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,100&display=swap" rel="stylesheet" />
   </head>
   <body>
@@ -16,17 +17,21 @@
         <div class="grid">
           <nav class="header__navbar">
             <ul class="header__navbar-list">
-              <li class="header__navbar-item">Vào cửa hàng trên ứng dụng</li>
-              <li class="header__navbar-item">Kết nối</li>
+              <li class="header__navbar-item header__navbar-item--separate">Vào cửa hàng trên ứng dụng</li>
+              <li class="header__navbar-item">
+                <span class="header__navbar-title--no-pointer">Kết nối</span>
+                <a href="#" class="header__navbar-icon-link"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="header__navbar-icon-link"><i class="fa-brands fa-instagram"></i></a>
+              </li>
             </ul>
             <ul class="header__navbar-list">
               <li class="header__navbar-item">
-                <a class="header__navbar-item-link" href="#">Thông báo</a>
+                <a class="header__navbar-item-link" href="#"><i class="fa-solid fa-bell header__navbar-icon-link"></i>Thông báo</a>
               </li>
               <li class="header__navbar-item">
-                <a class="header__navbar-item-link" href="#">Trợ giúp</a>
+                <a class="header__navbar-item-link" href="#"><i class="fa-regular fa-circle-question header__navbar-icon-link"></i>Trợ giúp</a>
               </li>
-              <li class="header__navbar-item">
+              <li class="header__navbar-item header__navbar-item--separate">
                 <a class="header__navbar-item-link header__navbar-item-link--bold" href="#">Đăng kí</a>
               </li>
               <li class="header__navbar-item">
