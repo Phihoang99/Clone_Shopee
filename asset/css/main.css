@@ -20,6 +20,38 @@
     position: relative;
 }
 
+.header__qr {
+    position: absolute;
+    width: 186px;
+    background-color: var(--white-color);
+    left: 0;
+    top: 118%;
+}
+
+.header__qr::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    top: 0;
+    height: 5%;
+    display: block;
+}
+
+.header__qr-img {
+    width: 100%;
+    padding: 8px;
+}
+
+.header__qr-download {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 17px;
+}
+
+.header__qr-link {
+    height: 15px;
+}
+
 .header__navbar-item--separate::after {
     content: "";
     display: block;
