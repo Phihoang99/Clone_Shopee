@@ -26,13 +26,14 @@
     background-color: var(--white-color);
     left: 0;
     top: 118%;
+    display: none;
 }
 
 .header__qr::before {
     position: absolute;
     content: "";
     width: 100%;
-    top: 0;
+    top: -5px;
     height: 5%;
     display: block;
 }
@@ -50,6 +51,11 @@
 
 .header__qr-link {
     height: 15px;
+}
+
+.header__navbar-item--qr-pointer:hover .header__qr {
+    display: block;
+
 }
 
 .header__navbar-item--separate::after {
