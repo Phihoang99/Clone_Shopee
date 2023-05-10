@@ -144,3 +144,29 @@
     color: var(--white-color);
     font-size: 2.4rem;
 }
+
+.main-content {
+    padding: 20px 0;
+}
+
+.home-page-container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.first-content {
+    position: relative;
+    display: flex;
+}
+
+.first-content-catergories {
+    flex: 1 0 20%;
+    width: 20%;
+    max-width: 20%;
+}
+
+.search-page-catergories__wrapper {
+    padding: 20px 0 10px;
+    overflow: initial;
+}
